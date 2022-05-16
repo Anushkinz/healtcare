@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    background-color: #A6D5FD;
+    background-image: url(./Group\ 1.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+header .menu a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6E5F5F;
+    opacity: 0.3;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+header .menu button{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.997px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color: #40A3F8;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blue{
+    color: #40A3F8;
+}
+main{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+main div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 65px;
+}
+main div input{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 8px 10px;
+    border: none;
+}
+main div select{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 8px 10px;
+    border: none;
+}
+main div button{
+    width: 60px;
+    height: 50px;
+    border: none;
+    background: #40A3F8;
+    border-radius: 8px;
+}
+main h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 70px;
+    color: #3E3E3E;
+    margin-bottom: 21px;
+}
+main p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(117, 117, 117, 0.46);
+    margin-bottom: 40px;
+}
+.advantages{
+    display: flex;
+    justify-content: space-between;
+}
+.advantage{
+    width: 25%;
+    text-align: center;
+}
+.advantage img{
+    width: 100px;
+    padding: 15px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(0, 158, 255, 0.1) 0%, rgba(56, 175, 255, 0.1) 100%);
+}
+.advantage h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #3D3D3F;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.advantage p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+.solution .container > h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 70px;
+    color: #3E3E3E;
+    margin-bottom: 20px;
+}
+.solution{
+    background-color: #CDE9FF;
+    padding: 20px 0;
+}
+.qualityDoctor{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.qualityDoctor div{
+    width: 45%;
+}
+.qualityDoctor div > img{
+    width: 100%;
+}
+.qualityDoctor div > h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    color: #3D3D3F;
+    margin-bottom: 15px;
+}
+.qualityDoctor div p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: rgba(61, 61, 63, 0.7);
+}
+.qualityDoctor div ul li{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #3D3D3F;
+    list-style-image: url(./Vector.png);
+    margin-top: 15px;
+}
+.qualityDoctor div ul{
+    padding-left: 30px;
+}
+
+.qualityDoctor button{
+    border: none;
+    background-color: #40A3F8;
+    padding: 10px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.qualityDoctor button img{
+    margin-left: 5px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+.services div{
+    width: 25%;
+    padding: 40px 60px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.service{
+    background-color: #CDE9FF;
+    padding: 50px 0;
+}
+.service h1, .service p{
+    text-align: center;
+}
+.service h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 49px;
+letter-spacing: 0.02em;
+margin-bottom: 20px;
+/* textv 2 */
+color: #3D3D3F;
+}
+.service p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+text-align: center;
+letter-spacing: 0.02em;
+
+color: rgba(61, 61, 63, 0.7);
+margin-bottom: 30px;
+}
+.services div h3{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+text-align: center;
+
+/* textv 2 */
+color: #3D3D3F;
+margin: 20px 0;
+}
+.menuBurger{
+    display: none;
+    width: 40px;
+}
+
+@media (max-width: 576px) {
+    .menuBurger{
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .main{
+        height: 100vh;
+        background-color: #A6D5FD;
+        background-image: url(./Group\ 1.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: end center;
+    }
+    main{
+        width: 100%;
+        text-align: center;
+    }
+}
